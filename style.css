@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+body{
+ overflow-x: hidden;
+}
+.container{
+	background-image: url("images/bg.jpg");
+	height: 590px;
+	background-size: cover;
+}
+header{
+	background-color: white;
+	height: 30px;
+}
+.left-header h3{
+	font-size: 20px;
+	float: left;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	margin-top: 30px;
+	padding-left: 60px;
+	color: grey;
+}
+.right-header a{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 80px;
+	padding: 10px;
+}
+.right-header a:hover{
+	color: blue;
+}
+.right-header ul{
+	list-style-type: none;
+}
+	
+.right-header ul li{
+	display: inline;
+	left: 0px;
+	padding: 0px;
+}
+.right-header{
+	float: right;
+	font-size: 16px;
+	padding-top: 20px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+h1{
+	font-size: 70px;
+	color: black;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+.paragraph{
+	font-size: 30px;
+	margin-left: 250px;
+	color: black;
+}
+.btn{
+	width: 220px;
+	margin-left: 370px;
+	height: 60px;
+	background-color: rgb(50, 115, 168);
+	border: none;
+	color: white;
+	font-size: 15px;
+	transition-duration: 2s;
+}
+.btn:hover{
+	background-color: rgb(50, 94, 168);
+	color: lightblue;
+}
+.butn{
+	width: 220px;
+	left: 50%;
+	margin: 0 auto;
+	height: 60px;
+	background-color: transparent;
+	border: 3px solid white;
+	color: black;
+	transition-duration: 2s;
+}	
+.butn:hover{
+	background-color: white;
+	color: black;
+}
+.about-us{
+	position: absolute;
+	top: 100px;
+}
+img{
+	width: 680px;
+	height: 420px;
+	margin-right: 100px;
+	float: left;
+	
+}
+h2{
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	margin-left: 800px;
+	float: none;
+}
+
+p{
+	text-align: left;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-left: 800px;
+	color: gray;
+	font-weight: lighter;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 0;
+	float: none;
+}
+.batton{
+	width: 200px;
+	height: 50px;
+	background-color: rgb(127, 3, 252);
+	border: none;
+	color: white;
+	margin-left: 20px;
+	margin-top: 0;
+	transition-duration: 2s;
+}
+.batton:hover{
+	background-color: rgb(3, 127, 252);
+	color: white;
+}
+.portfolio{
+	background-color: blue;
+	position: relative;
+	margin-top: 100px;
+}
+.portfolio img{
+	max-width: 680px;
+	height: 420px;
+	margin-left: 100px;
+	margin-top: 0;
+	margin-right: 0;
+	float: right;
+}
+h4{
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	position: absolute;
+	right: 1050px;
+}
+.portfolio p{
+	text-align: left;
+	font-size: 20px;
+	font-weight: lighter;
+	color: gray;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 100px;
+	float: none;
+	position: absolute;
+	top: 100px;
+}
+.bhurta{
+    position: absolute;
+	top: 330px;
+	width: 200px;
+	height: 50px;
+	background-color: rgb(50, 94, 168);
+	border: none;
+	color: white;
+	margin-left: 0;
+	right: 960px;
+	transition-duration: 2s;
+	font-family: sans-serif;
+}
+.bhurta:hover{
+	background-color: rgb(127, 3, 252);
+	color: lightblue;
+}
+.images{
+	width: 100%;
+	height: 440px;
+	margin-top: 50px;
+}
+.everything{
+	position: absolute;
+	top: 1700px;
+	left: 25%;
+	
+	color: white;
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+}
+.kuchbhee{
+	position: absolute;
+	top: 1800px;
+	left: 10%;
+	color: black;
+	font-size: 15px;
+	color: white;
+	font-family: 'Poppins' , sans-serif;
+}
+.khatam{
+	position: absolute;
+	top: 1880px;
+	width: 200px;
+	height: 50px;
+	left: 530px;
+	background-color: rgb(50, 115, 168);
+	border: none;
+	color: white;
+	font-weight: bold;
+	transition-duration: 2s;
+}
+.khatam:hover{
+	background-color: rgb(127, 3, 252);
+}
+.heading{
+	position: absolute;
+	top: 2150px;
+	left: 520px;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+}
+.anything p{
+	position: absolute;
+	top: 2250px;
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	float: none;
+	font-size: 15px;
+	color: grey;
+}
+.shutup{
+	position: absolute;
+	top: 2340px;
+	width: 200px;
+	height: 50px;
+	left: 530px;
+	background-color: rgb(50, 115, 168);
+	border: none;
+	color: white;
+	font-weight: bold;
+	transition-duration: 2s;
+}
+.shutup:hover{
+	background-color: rgb(127, 3, 252);
+}
+#image{
+	position: absolute;
+	top: 2500px;
+	width: 100%;
+	height: 100%;
+}
+#section{
+	background-color: black;
+	position: absolute;
+	top: 486%;
+	width: 100%;
+	
+}
+h6{
+	color: white;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+}
+#section p{
+	position: absolute;
+	top: 130px;
+	left: 25%;
+	right: 25%;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+	
+.project{
+	width: 400px;
+	height: 300px;
+	margin: 0px;
+}
+#project-1 h1{
+	position: absolute;
+	top: 14%;
+	left: 9%;
+	font-weight: lighter;
+	color: white;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	transition: all 0.6s;
+	opacity: 0;
+}
+#project-1:hover h1{
+	opacity: 1;
+}
+#project-2 h2{
+	position: absolute; 
+	color: white;
+	top: 25%;
+	left: -22%;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	transition: all 0.6s;
+	opacity: 0;
+}
+#project-2:hover h2{
+	opacity: 1;
+}
+#project-3 h3{
+	color: white;
+	position: absolute;
+	left: 74%;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	top: 25%;
+	transition: all 0.6s;
+	opacity: 0;
+}
+#project-3:hover h3{
+	opacity: 1;
+}
+#project-4 h4{
+	color: white;
+	position: absolute;
+	top: 52%;
+	left: 8%;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	transition: all 0.6s;
+	opacity: 0;
+}
+#project-4:hover h4{
+	opacity: 1;
+}
+#project-5 h6{
+	color: #fff;
+	position: absolute;
+	left: 41%;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	top: 49%;
+	transition: all 0.6s;
+	opacity: 0;
+}
+#project-5:hover h6{
+	opacity: 1;
+}
+#project-6 #project-6{
+	color: white;
+	position: absolute;
+	top: 55%;
+	right: -34%;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	transition: all 0.6s;
+	opacity: 0;
+}
+#project-6:hover #project-6{
+	opacity: 1;
+}
+#project-7 #project-7{
+	color: white;
+	position: absolute;
+	top: 83%;
+	font-size: 32px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	left: -48%;
+	transition: all 0.6s;
+	opacity: 0;
+}
+#project-7:hover #project-7{
+	opacity: 1;
+}
+#project-8 #project-8{
+	color: white;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	position: absolute;
+	top: 83%;
+	left: 20%;
+	transition: all 0.6s;
+	opacity: 0;
+}
+#project-8:hover #project-8{
+	opacity: 1;
+}
+#project-9 #project-9{
+	color: white;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	position: absolute;
+	top: 83%;
+	left: 75%;
+	transition: all 0.6s;
+	opacity: 0;
+}
+#project-9:hover #project-9{
+	opacity: 1;
+}
+.img{
+	width: 100%;
+	height: 440px;
+	position: absolute;
+	top: 658%;
+}
+.customer-section{
+	position: absolute;
+	top: 668%;
+	font-size: 40px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	left: 30%;
+	font-weight: lighter;
+}
+.sus{
+	position: absolute;
+	top: 678%;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	left: 15%;
+}
+#man{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 695%;
+	border-radius: 50%;
+	left: 45%;
+}
+
+	
+#clie{
+	position: absolute;
+	top: 735%;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	left: -20%;
+}
+#hml{
+	width: 50px;
+	height: 52px;
+	position: absolute;
+	top: 755%;
+	left: 12%;
+}
+#cs{
+	width: 50px;
+	height: 52px;
+	position: absolute;
+	top: 755%;
+	left: 35%;
+}
+#jk{
+	width: 50px;
+	height: 52px;
+	position: absolute;
+	top: 755%;
+	left: 60%;
+}
+#boot{
+	width: 50px;
+	height: 52px;
+	position: absolute;
+	top: 755%;
+	left: 84%;
+}
+#theem{
+	background-color: rgb(228, 237, 228);
+}
+#like{
+	position: absolute;
+	top: 770%;
+	font-size: 25px;
+	left: 15%;
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+
+}
+#certain{
+	position: absolute;
+	top: 792%;
+	width: 220px;
+	height: 50px;
+	background-color: rgb(50, 115, 168);
+	border: none;
+	color: white;
+	font-weight: bold;
+	left: 70%;
+}
+#footer{
+	position: absolute;
+	top: 820%;
+	background-color: rgb(18, 18, 17);
+	width: 100%;
+	height: 30%;
+}
+#theme{
+	position: absolute;
+	left: -57%;
+	margin-top: 7%;
+	font-size: 15px;
+	color: white;
+}
